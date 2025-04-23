@@ -6,23 +6,23 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "maxdavid126@gmail.com";
-global.location = "lakota, asia";
+global.email = "ngwenyathabani93@gmail.com";
+global.location = "CowdrayPark, BYO";
 global.mongodb = process.env.MONGODB_URI || "";
-global.allowJids = process.env.ALLOW_JID || "null";
+global.allowJids = process.env.ALLOW_JID || "yes";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Harare";
 global.github = process.env.GITHUB || "https://github.com/bladeh3x/BLADE-MD-V2";
 global.gurl = process.env.GURL || "";
 global.website = process.env.GURL || "";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/c5121735684e9a7848a03.jpg";
 global.devs = "https://t.me/alex";
-global.sudo = process.env.SUDO || "2348059540212";
-global.owner = process.env.OWNER_NUMBER || "";
+global.sudo = process.env.SUDO || "263785824469;
+global.owner = process.env.OWNER_NUMBER || "+263785824469";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -30,7 +30,7 @@ global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
 global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/c5121735684e9a7848a03.jpg";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "false";
-global.readmessage = process.env.READ_MESSAGE || "false";
+global.readmessage = process.env.READ_MESSAGE || "true";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
@@ -45,16 +45,16 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "2",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "×",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`BLADE-MD™`",
-  author: process.env.PACK_AUTHER || "BLADE-MD-V2",
+  caption: process.env.CAPTION || "`💚TEEMAN💚™`",
+  author: process.env.PACK_AUTHER || "TEEMAN-V2",
   packname: process.env.PACK_NAME || "ALEX",
-  botname: process.env.BOT_NAME || "BLADE-MD-V2",
-  ownername: process.env.OWNER_NAME || "Alex-tv",
-  errorChat: process.env.ERROR_CHAT || "",
-  KOYEB_API: process.env.KOYEB_API || "false",
+  botname: process.env.BOT_NAME ||"LIL'SMOKEY",
+  ownername: process.env.OWNER_NAME || "💚TEEMAN💚",
+  errorChat: process.env.ERROR_CHAT || "I'M HIGH RIGHT NOW, TRY LATER WHEN I'M SOBER",
+  KOYEB_API: process.env.KOYEB_API || "true",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
